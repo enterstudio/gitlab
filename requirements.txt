@@ -1,3 +1,5 @@
 hot
 git+https://github.com/heat-tools/envshuffle
 git+https://github.com/heat-tools/bumper
+
+pip>=19.2 # not directly required, pinned by Snyk to avoid a vulnerability
