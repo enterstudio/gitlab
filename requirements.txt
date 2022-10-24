@@ -1,3 +1,8 @@
 hot
 git+https://github.com/heat-tools/envshuffle
 git+https://github.com/heat-tools/bumper
+babel>=2.9.1 # not directly required, pinned by Snyk to avoid a vulnerability
+oslo.utils>=4.8.1 # not directly required, pinned by Snyk to avoid a vulnerability
+python-keystoneclient>=1.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pyyaml>=5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.20 # not directly required, pinned by Snyk to avoid a vulnerability
